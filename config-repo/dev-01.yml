@@ -1,1 +1,5 @@
-修改后的第一个文件
+zuul:
+  routes:
+    service-provider:
+      path: /service/**
+      serviceId: eureka-service
